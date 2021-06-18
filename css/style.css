@@ -50,6 +50,9 @@ ul > li > a{
     border-left: 1px solid #3f4852;
     border-right: 1px solid #3f4852;
 }
+.vil-menu > li{
+    border-right: none;
+}
 .nav-menu > li:first-child{
     border-left: none;
 }
@@ -278,7 +281,10 @@ ul > li:first-child:hover > a{
 .teh-table i{
     border: 1px solid #c0c1c2;
 }
-
+.table-results td:nth-child(2),
+.teh-table i:nth-child(2){
+    width: 60%;
+}
 .table-results td,
 .teh-table i{
     padding: 12px 20px;
