@@ -176,11 +176,11 @@ ul > li:first-child:hover > a{
     width: 210px;
     z-index: 1;
 }
-.nav-menu li:last-child .sub{
+.products-menu li:last-child .sub{
     position: absolute;
     right: 0; 
 }
-.products-menu li:hover .sub{
+.nav-menu li:hover .sub{
     display: block;
 }
 .sub ul{
