@@ -77,17 +77,7 @@ ul > li:first-child:hover > a{
 .results-sheet{
     margin-bottom: 50px;
 }
-/*.technics-menu{
-    display: table;
-    width: 100%;
-    border-collapse: collapse;
-}
-.technics-menu > li{
-    display: table-row;
-}
-.technics-menu > a{
-    display: table-cell;
-}*/
+
 
 .tech-nav{
     display: table;
@@ -277,10 +267,17 @@ ul > li:first-child:hover > a{
     display: table;
     padding-top: 5px;
 }
+
 .sub-vil{
-    overflow: hidden;
     border-radius: 3px;
+    overflow: hidden;
 }
+.sub-vil1 > li:first-child:hover > a,
+.sub-vil2 > li:first-child:hover > a{
+    border-radius: 0;
+}
+
+
 .sub_b .sub-village{
     display: table-row;
     background-color: #d2d4d5;
