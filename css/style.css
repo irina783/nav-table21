@@ -180,7 +180,7 @@ ul > li:first-child:hover > a{
     position: absolute;
     right: 0; 
 }
-.nav-menu li:hover .sub{
+.products-menu li:hover .sub{
     display: block;
 }
 .sub ul{
