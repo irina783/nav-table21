@@ -183,10 +183,9 @@ ul > li:first-child:hover > a{
     position: absolute;
     display: none;
     width: 210px;
-    left: 0;
     z-index: 1;
 }
-.sub:nth-last-of-type(1){
+.nav-menu li:last-child .sub{
     position: absolute;
     right: 0; 
 }
