@@ -73,7 +73,8 @@ ul > li:first-child:hover > a{
 .tech-line{
     margin: 40px 0;
 }
-.vil-line{
+.vil-line,
+.results-sheet{
     margin-bottom: 50px;
 }
 /*.technics-menu{
