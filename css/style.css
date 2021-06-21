@@ -175,7 +175,7 @@ ul > li:first-child:hover > a{
 }
 
 /* sub */
-.products-menu li{
+.nav-menu li{
     position: relative;
 }
 .sub{
@@ -183,30 +183,129 @@ ul > li:first-child:hover > a{
     position: absolute;
     display: none;
     width: 210px;
+    left: 0;
     z-index: 1;
 }
-
+.sub:nth-last-of-type(1){
+    position: absolute;
+    right: 0; 
+}
+.nav-menu li:hover .sub{
+    display: block;
+}
 .sub ul{
-    border-radius: 3px;
     background-color: #d2d4d5;
+    border-radius: 3px;
 }
 .sub li{
     display: block;
     border-top: 1px solid #b9bdc1;
 }
-
-.sub a{
-    padding: 12px 20px;
+.sub a,
+.sub-village a{
+    padding: 11px 20px;
+    text-align: left;
+    color: #2a3644;
     font: bold 15px Arial;
+}
+.sub-vil3 li:hover >a,
+.sub li:hover > a{
+    color: #ff8505;
     background-color: #2a3644;
 }
+.sub li:first-child,
+.sub1 li:first-child,
+.sub2 li:first-child,
+.sub3 li:first-child{
+    border-top: none;
+}
+
+.sub ul li:first-child:hover > a,
+.sub1 ul li:first-child:hover > a,
+.sub2 ul li:first-child:hover > a,
+.sub3 ul li:first-child:hover > a{
+    border-radius: 3px 3px 0 0;
+}
+.sub ul li:last-child:hover > a,
+.sub1 ul li:last-child:hover > a,
+.sub2 ul li:last-child:hover > a,
+.sub3 ul li:last-child:hover > a{
+    border-radius: 0 0 3px 3px;
+}
+
+.sub1 li:hover .sub2,
+.sub2 li:hover .sub3{
+    display: block;  
+}
+
+.sub2{
+    position: absolute;;
+    left: 100%;
+    padding-left: 5px;
+    top: 0;
+    width: 210px;
+    display: none;
+    z-index: 1;
+}
+.sub3{
+    position: absolute;
+    right: 100%;
+    padding-right: 5px;
+    top: 0;
+    width: 210px;
+    display: none;
+    z-index: 1;
+}
+
+
+.vil-menu li:hover > .sub_a{
+    display: block;
+}
+.sub-vil3{
+    visibility: hidden;
+}
+.nav-menu > li:hover .sub-vil3{
+    visibility: visible;
+}
+
+.sub_a{
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.sub_a.sub_b{
+    display: table;
+    padding-top: 5px;
+}
+.sub-vil{
+    overflow: hidden;
+    border-radius: 3px;
+}
+.sub_b .sub-village{
+    display: table-row;
+    background-color: #d2d4d5;
+}
+.sub_b.sub_a ul{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+}
+.sub_a li{
+    display: block;
+    width: 210px;
+    border-bottom: 1px solid #b9bdc1;
+    border-right: 1px solid #b9bdc1;
+}
+.sub-vil1 li:last-child{
+    border-bottom: none;
+}
+.sub-vil2 li{
+    border-right: none;
+}
+
 
 /* end of sub */
-
-
-
-
-
 
 
 /* table_2 */
